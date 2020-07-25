@@ -38,13 +38,13 @@ dependencies {
 * To return an encrypted string value, pass your string to encrypt and use the function:
 
 <pre>
-bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(string_to_encrypt)
+bhapps.utilitools.security.java.encryption.EncryptDecrypt.getEncryptedStringFromString(string_to_encrypt)
 </pre>
 
 * To return an decrypted string value, pass your encrypted string and use the function:
 
 <pre>
-bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(encrypted_string_to_decrypt)
+bhapps.utilitools.security.java.encryption.EncryptDecrypt.getEncryptedStringFromString(encrypted_string_to_decrypt)
 </pre>
 
 # Functions
@@ -54,7 +54,7 @@ bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedS
      *
      * getEncryptedStringFromString(string)
      * get encrypted string from passed string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(string)
+     * bhapps.utilitools.security.java.encryption.EncryptDecrypt.getEncryptedStringFromString(string)
      * returns String
      *
     */
@@ -65,7 +65,7 @@ bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedS
      *
      * getDecryptedStringFromString(string)
      * get decrypted string from passed string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getDecryptedStringFromString(string)
+     * bhapps.utilitools.security.java.encryption.EncryptDecrypt.getDecryptedStringFromString(string)
      * returns String
      *
     */
@@ -75,6 +75,7 @@ bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedS
 
 * AndroidX
 * Kotlin
+* Desugar
 
 # Licences
 

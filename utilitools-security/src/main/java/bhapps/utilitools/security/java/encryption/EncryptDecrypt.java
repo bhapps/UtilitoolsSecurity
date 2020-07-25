@@ -7,7 +7,7 @@
      *
 */
 
-package bhapps.utilitools.security.java.security.encryption;
+package bhapps.utilitools.security.java.encryption;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -22,7 +22,7 @@ public class EncryptDecrypt {
      *
      * getEncryptedStringFromString(string_to_encrypt)
      * get encrypted string from passed string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getEncryptedStringFromString(string_to_encrypt)
+     * bhapps.utilitools.security.java.encryption.EncryptDecrypt.getEncryptedStringFromString(string_to_encrypt)
      * returns String
      *
     */
@@ -38,7 +38,7 @@ public class EncryptDecrypt {
      *
      * getDecryptedStringFromString(encrypted_string_to_decrypt)
      * get decrypted string from passed encrypted string value
-     * bhapps.utilitools.security.java.security.encryption.EncryptDecrypt.getDecryptedStringFromString(encrypted_string_to_decrypt)
+     * bhapps.utilitools.security.java.encryption.EncryptDecrypt.getDecryptedStringFromString(encrypted_string_to_decrypt)
      * returns String
      *
     */
